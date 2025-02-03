@@ -21,10 +21,108 @@
 
   <div class="card p-4" style="width: 28rem; background-color: #131212f1">
     <img src="./assets/images/logoOneBitDark.png" class="card-img-top" alt="logo">
-    <div class="card-body">
-    </div>
+
+    <form class="card-body">
+      <section class="mb-4">
+        <p class="my-2 text-white">1 - Qual seu nome?</p>
+        <div class="input-group mb-3">
+          <label for="Username" class="input-group-text" id="basic-addon1">Nome</label>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" id="Username" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+          <label for="SobreNome" class="input-group-text" id="basic-addon1">Sobre Nome</label>
+          <input type="text" class="form-control" placeholder="Sobre Nome" aria-label="SobreNome" id="Username" aria-describedby="basic-addon1">
+        </div>
+      </section>
+
+      <section class="mb-4">
+        <p class="my-2 text-white">2 - Qual o seu gênero?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="genero" id="flexRadioDefault1">
+          <label class="form-check-label text-white" for="flexRadioDefault1">
+            Homem
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="genero" id="flexRadioDefault2" checked>
+          <label class="form-check-label text-white" for="flexRadioDefault2">
+            Mulher
+          </label>
+        </div>
+      </section>
+
+      <section class="mb-4">
+        <p class="my-2 text-white">3 - Marque os treinamentos que você fez:</p>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="basico">
+          <label class="form-check-label text-white" for="basico">Treinamento básico de astronauta</label>
+        </div>
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="fisicoBasico">
+          <label class="form-check-label text-white" for="fisicoBasico">Treinamento físico básico</label>
+        </div>
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="fisicoAvancado">
+          <label class="form-check-label text-white" for="fisicoAvancado">Treinamento físico avançado de astronauta</label>
+        </div>
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="treinsoIntenso" value="treinsoIntenso">
+          <label class="form-check-label text-white" for="treinsoIntenso">Treinamento físico intenso</label>
+        </div>
+      </section>
+
+      <section class="mb-4">
+        <p class="my-2 text-white">4 - Quais você acha que são suas qualidades?</p>
+
+        <div class="row px-3">
+          <div class="form-check col">
+            <input class="form-check-input" type="checkbox" value="" id="Proativo">
+            <label class="form-check-label text-white" for="Proativo">
+              Proativo
+            </label>
+          </div>
+  
+          <div class="form-check col">
+            <input class="form-check-input" type="checkbox" value="" id="resistente">
+            <label class="form-check-label text-white" for="resistente">
+              Resistente
+            </label>
+          </div>
+        </div>
+
+        <div class="row px-3">
+          <div class="form-check col">
+            <input class="form-check-input" type="checkbox" value="" id="resistente">
+            <label class="form-check-label text-white" for="resistente">
+              Não vomito fácil
+            </label>
+          </div>
+
+
+          <div class="form-check col">
+            <input class="form-check-input" type="checkbox" value="" id="resistente">
+            <label class="form-check-label text-white" for="resistente">
+              Não temo marciano
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <button class="btn">
+        Enviar
+      </button>
+    </form>
   </div>
 
+
+  <footer class="footer text-white mt-2">
+    Feito por  <a href="https://eduardorojas.com.br/" target="_blank" class="text-danger">Eduardo Rojas</a>
+    - Projeto de Estudo OneBitCode
+  </footer>
 
   <!-- Bootstrap JS -->
   <script 

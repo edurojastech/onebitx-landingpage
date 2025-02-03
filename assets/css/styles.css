@@ -14,6 +14,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .bgMain {
@@ -24,10 +25,32 @@ body{
   z-index: -1;
 }
 
+a {
+  text-decoration: none;
+}
+
 .card-img-top {
   width: 240px;
   margin: auto;
 }
+
+.input-group-text {
+  width: 120px;
+}
+
+.btn {
+  border: 1px solid #ff0043;
+  color: #ff0043;
+  width: 80px;
+  margin: auto;
+  display: block;
+}
+
+.btn:hover {
+  background-color: #ff0043;
+  color: #fff;
+}
+
 
 @media(max-width: 640px) {
   .bgMain {
